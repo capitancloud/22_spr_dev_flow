@@ -113,16 +113,6 @@ export function LoginPage() {
             </Button>
           </form>
 
-          {/* Security info */}
-          <div className="mt-6 pt-6 border-t border-border/50">
-            <div className="flex items-start gap-3 text-sm text-muted-foreground">
-              <Shield className="w-5 h-5 text-primary mt-0.5 shrink-0" />
-              <p>
-                Il codice viene verificato tramite <span className="text-primary font-medium">SHA-256 hash</span> per garantire la sicurezza. 
-                Nessun dato sensibile viene memorizzato in chiaro.
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Footer info */}
